@@ -8,3 +8,6 @@ The hard part of this project was figuring out the bluetooth protocol the the Ri
 To use this code with a different gimbal, you will need to replace the MAC address that is currently hardcoded into the file with the MAC address of your device.
 
 Note that you need to add "https://dl.espressif.com/dl/package_esp32_index.json" to the "Additional boards manager URLs:" field in the Arduino IDE preferences.
+
+I pulled a lot of the command structure from this JavaScript project that controls a gimbal via a Webpage:
+https://github.com/dejanmilivojevic/rider-m
