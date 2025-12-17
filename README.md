@@ -6,3 +6,5 @@ The current implementation is for use on a prototype mine exploration robot bein
 
 The hard part of this project was figuring out the bluetooth protocol the the Rider-M uses. That protocol is not published by Zhiyun, and their customer service refuses to reach out to the development team to get the protocol information.
 To use this code with a different gimbal, you will need to replace the MAC address that is currently hardcoded into the file with the MAC address of your device.
+
+Note that you need to add "https://dl.espressif.com/dl/package_esp32_index.json" to the "Additional boards manager URLs:" field in the Arduino IDE preferences.
